@@ -41,11 +41,9 @@ public class Task1_5 {
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
         for (int n = 1; n <= 9; n++) { 
+            System.out.print(n + "||"); 
    // １つの段を表示 
    for (int j = 1; j <= 9; j++) { 
-       if (j <= 1) {
-   System.out.print(n + "||"); 
-} 
       System.out.print((n * j) + " | "); 
    } 
 System.out.println();
