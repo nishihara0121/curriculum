@@ -11,9 +11,8 @@ public class Check {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		Check check = new Check();
-		Constants incon = new Constants();
-		Pet inPet = new Pet(incon.CHECK_CLASS_JAVA, incon.CHECK_CLASS_HOGE);
-		RobotPet inRobo = new RobotPet(incon.CHECK_CLASS_R2D2, incon.CHECK_CLASS_LUKE);
+		Pet inPet = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
+		RobotPet inRobo = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
 		
 		check.printName(firstName,lastName);
 		inPet.introduce();
